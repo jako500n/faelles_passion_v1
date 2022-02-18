@@ -4,10 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Forside Know your city</title>
-  </head>
-  <body>
     <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      main {
+        width: 80vw;
+        max-width: 1000px;
+        margin: 0 auto;
+      }
       h1 {
         color: rgb(4, 44, 11);
         font-family: sans-serif;
@@ -18,9 +25,28 @@
         background-color: rgb(2, 2, 61);
         padding: 10px;
       }
+
+      button {
+        justify-content: center;
+        margin: 3em 0 0 1.5em;
+        padding: 1rem;
+        text-transform: capitalize;
+        background-color: #ccc;
+        font-family: "Plateia", monospace;
+        border-radius: 20px;
+        cursor: pointer;
+      }
     </style>
-    <header></header>
-    <h1>KNOW YOUR CITY</h1>
-    <h2>KØBENHAVN</h2>
+
+    <title>Forside Know your city</title>
+  </head>
+  <body>
+    <header>
+      <h1>KNOW YOUR CITY</h1>
+
+      <nav>
+        <button class="button">Alle</button>
+      </nav>
+    </header>
   </body>
 </html>
