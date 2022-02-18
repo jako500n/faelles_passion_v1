@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="150" viewBox="0 0 150 150">
+  <defs>
+    <clipPath id="clip-Artboard_3">
+      <rect width="150" height="150"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_3" data-name="Artboard – 3" clip-path="url(#clip-Artboard_3)">
+    <rect width="150" height="150" fill="#fff"/>
+    <g id="Cross" transform="translate(40.722 40.722)">
+      <path id="Union_3" data-name="Union 3" d="M34.277,40.51,6.231,68.556,0,62.322,28.044,34.277,0,6.231,6.231,0,34.277,28.044,62.322,0l6.235,6.231L40.51,34.277,68.556,62.322l-6.235,6.235Z" fill="#0c0440"/>
+    </g>
+  </g>
+</svg>
