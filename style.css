@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 80vw;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+h1 {
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+header {
+  background-color: rgb(2, 2, 61);
+  padding: 10px;
+}
+
+button {
+  justify-content: center;
+  margin: 3em 0 0 1.5em;
+  padding: 1rem;
+  text-transform: capitalize;
+  background-color: #ccc;
+  font-family: "Plateia", monospace;
+  border-radius: 20px;
+  cursor: pointer;
+}
