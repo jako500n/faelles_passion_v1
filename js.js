@@ -1,3 +1,4 @@
+let modal = document.querySelector("#modal");
 // Globale variabler
 let json;
 let filter = "alle";
