@@ -54,7 +54,6 @@ button {
   cursor: pointer;
 }
 article {
-  background-color: rgb(209, 196, 179);
   border: 3px solid#0c0440;
   border-radius: 5px;
   text-align: center;
@@ -63,8 +62,16 @@ article {
 
 section {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
   gap: 1rem;
+}
+
+.adresse {
+  margin: 20px;
+}
+
+.container {
+  background-color: #ecebe2;
 }
 
 .grid-menu img {
@@ -85,6 +92,5 @@ section {
 
 #modal article.grid-menu {
   max-width: 900px;
-  margin: 2rem auto;
   background-color: rgb(5, 44, 32);
 }
