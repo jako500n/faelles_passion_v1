@@ -22,6 +22,7 @@ h1 {
   font-size: 50px;
   font-family: sans-serif;
   text-align: center;
+  margin: 15px;
 }
 h2 {
   color: #952619;
@@ -51,4 +52,39 @@ button {
   font-family: sans-serif;
   border-radius: 20px;
   cursor: pointer;
+}
+article {
+  background-color: rgb(209, 196, 179);
+  border: 3px solid#0c0440;
+  border-radius: 5px;
+  text-align: center;
+  margin: 20px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.grid-menu img {
+  width: 100%;
+  border-radius: 9px;
+  object-fit: cover;
+  aspect-ratio: 8/5;
+}
+
+#modal {
+  display: none;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  background-color: rgb(54, 71, 44);
+}
+
+#modal article.grid-menu {
+  max-width: 900px;
+  margin: 2rem auto;
+  background-color: rgb(5, 44, 32);
 }
