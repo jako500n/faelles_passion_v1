@@ -4,49 +4,51 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
+    <link rel="stylesheet" href="style.css">
 
-      main {
-        width: 80vw;
-        max-width: 1000px;
-        margin: 0 auto;
-      }
-      h1 {
-        color: white;
-        font-family: sans-serif;
-        text-align: center;
-      }
-
-      header {
-        background-color: rgb(2, 2, 61);
-        padding: 10px;
-      }
-
-      button {
-        justify-content: center;
-        margin: 3em 0 0 1.5em;
-        padding: 1rem;
-        text-transform: capitalize;
-        background-color: #ccc;
-        font-family: "Plateia", monospace;
-        border-radius: 20px;
-        cursor: pointer;
-      }
     </style>
 
     <title>Forside Know your city</title>
   </head>
   <body>
-    <header>
-      <h1>KNOW YOUR CITY</h1>
 
-      <!-- <nav>
-        <button class="button">Alle</button>
-      </nav> -->
+    <header>
+      <nav>
+        <button data-kategori="alle" class="valgt">ALLE BYDELENE</button>
+        <button data-kategori="forretter">NØRREBRO</button>
+        <button data-kategori="hovedretter">VESTERBRO</button>
+        <button data-kategori="sideorders">ØSTERBRO</button>
+        <button data-kategori="desserter">FREDERIKSBERG</button>
+        <button data-kategori="drikkevarer">INDRE BY</button>
+      </nav>
     </header>
+
+    <h1>KNOW YOUR CITY</h1>
+    <h2>KØBENHAVN</h2>
+
+    <section class="container"></section>
+
+    <aside id="modal">
+      <article class="grid-menu">
+        <img src="" alt="" class="images" />
+        <div class="info">
+          <h2 class="navn"></h2>
+          <p class="paragraf"></p>
+          <p class="adresse"></p>
+        </div>
+      </article>
+    </aside>
+
+    <template>
+      <article>
+        <img src="" alt="" />
+
+        <h2 class="navn"></h2>
+        <p class="paragraf"></p>
+        <p class="adresse"></p>
+      </article>
+    </template>
+
+    <script src="js.js"></script>
   </body>
 </html>
